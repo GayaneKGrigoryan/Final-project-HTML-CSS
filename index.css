@@ -6,7 +6,7 @@
     top:0;
     background-color: #413B43;
     width: 100%;
-    height: 144px;
+    height: 142px;
     z-index: 1;
 }
 
@@ -15,6 +15,8 @@
     justify-content: center;
     align-items: center;
     width: 27%;
+    /* text-align: center;
+    padding-top: 21px; */
 } 
 
 .header-logo img {
@@ -33,24 +35,23 @@
 
 .about-img {
     width: 100%;
-    height: 50vw;
-    background-image: url("images/figmajpgfiles/home-page-main-picture.jpg"); 
+    height: 43vw;
+    background-image: url("images/figmajpgfiles/home-page-main-picture.svg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 144px;
+    margin-top: 142px;
 }
 
 .about-text {
-    padding-top: 185px;
+    padding-top: 187px;
     padding-left: 230px;
 }
 
 .about-text h4 {
     font-family: 'Secular One', sans-serif;
     font-size: 60px;
-    line-height: 87px;
     margin-bottom: 21px;
 }
 
@@ -69,16 +70,19 @@
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    display: block;
+    /* display: block; */
 }
 
 .portfolio-intro {
-    width: 100%;
-    padding-left: 230px;
-    padding-top: 47px;
-    padding-bottom: 45px;
-    box-sizing: border-box;
-    margin-top: 72px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 46px;
+    margin-left: 200px;
+    margin-top: 73px;
+    background-position: 0;
+    background-repeat: no-repeat;  
+    background-size: 248px 272px;
+    background-image: linear-gradient(white, orange);
 }
 
 .portfolio-intro h4 {
@@ -131,10 +135,73 @@
     width: 320px;
     height: 60px;
     background: #0055FF;
-    border-color: #0055FF;
+    border: none;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: #FFFFFF;
 }
+
+.testimonials-intro {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-left:200px;
+    margin-top: 73px;
+}
+
+.testimonials-intro h4 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    line-height: 87px;
+}
+
+.testimonials-intro div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    width: 75vw;
+}
+
+.testimonials {
+    display: flex;
+    margin-left: 200px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #B0D136;
+    Width: 467px;
+    height: 614px;
+    margin-left: 30px;
+}
+
+.person-img {
+    height: 50%;
+    text-align: center;
+    padding-top: 33px;
+    margin-bottom: 18px;
+}
+
+.person-content {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.person-content h5 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+
+.person-content div {
+    font-size: 18px;
+    line-height: 36px;
+}
+
