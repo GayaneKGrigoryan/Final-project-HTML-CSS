@@ -36,7 +36,7 @@
 .about-img {
     width: 100%;
     height: 43vw;
-    background-image: url("images/figmajpgfiles/home-page-main-picture.svg"); 
+    background-image: url("images/pictures/home-page-main-picture.svg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,9 +103,9 @@
     box-sizing: border-box;
     /* width: 100%; */
 }
-.portfolio-img {
+/* .portfolio-img {
     box-sizing: border-box;
-}
+} */
 
 .portfolio-content {
     width: 50%;
@@ -119,8 +119,9 @@
     font-family: 'Secular One', sans-serif;
     font-size: 60px;
     line-height: 87px;
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     color: #F4AB82;
+    padding-right: 294px;
 }
 
 .portfolio-content div {
@@ -129,6 +130,7 @@
     font-weight: 300;
     font-size: 24px;
     color: #FFFFFF;
+    line-height: 36px;
     margin-bottom: 36px;
     padding-right: 230px;
 }
@@ -143,6 +145,7 @@
     font-weight: 500;
     font-size: 24px;
     color: #FFFFFF; 
+    margin-bottom:83px ;
 }
 
 .testimonials-intro {
@@ -242,5 +245,43 @@
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
+}
+
+.services {
+    display: flex;
+    /* box-sizing: border-box; */
+}
+
+.services-img {
+    /* width: 50%; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.services-content {
+    width: 50%;
+    padding-left: 230px;
+    background-color: #413B43;
+    padding-right: 94px;
+    /* box-sizing: border-box; */
+}
+
+.services-content h4 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    line-height: 87px;
+    margin-top: 143px;
+    margin-bottom: 20px;
+    color: #E8FFAF;
+}
+
+.services-content div {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 157px;
 }
 
