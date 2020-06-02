@@ -1,10 +1,6 @@
 
 .portfolio-img {
-    /* width: 50%; */
     background-image: url("images/pictures/portfolio-pic-2.svg"); 
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .portfolio-content h4 {
