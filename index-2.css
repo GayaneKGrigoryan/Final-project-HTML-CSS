@@ -1,0 +1,18 @@
+
+.portfolio-img {
+    /* width: 50%; */
+    background-image: url("images/pictures/portfolio-pic-2.svg"); 
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.portfolio-content h4 {
+    /* font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    line-height: 87px;
+    margin-bottom: 20px; */
+    color: #A0EDE5;
+    /* padding-right: 294px; */
+}
+
