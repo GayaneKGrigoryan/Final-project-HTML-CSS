@@ -5,8 +5,7 @@
     position: fixed;
     top:0;
     background-color: #413B43;
-    width: 100%;
-    height: 142px;width: 100%;
+    width: 100vw;
     height: 142px;
     z-index: 1;
 }
@@ -16,8 +15,6 @@
     justify-content: center;
     align-items: center;
     width: 27%;
-    /* text-align: center;
-    padding-top: 21px; */
 } 
 
 .header-logo img {
@@ -51,13 +48,15 @@
 }
 
 .about-text h4 {
-    font-family: 'Secular One', sans-serif;
+    /* font-family: 'Secular One', sans-serif; */
+    font-family: var(--header-font-family);
+    /* color: var(--main--color); */
     font-size: 60px;
     margin-bottom: 21px;
 }
 
 .about-text div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     width: 35vw;
     margin-bottom: 36px;
@@ -74,26 +73,31 @@
     /* display: block; */
 }
 
+/* @media all and (min-width: 1920px){
+    .about-text {
+        font-size:50%;
+    }
+} */
+
+
 .portfolio-intro {
     padding-top: 113px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
     background-position-x: 200px;
-    /* background-position-y: 100px; */
     background-repeat: no-repeat;  
     background-size: 248px 464px;
     background-image: linear-gradient(white, orange)
 }
 
 .portfolio-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
 }
 
 .portfolio-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
@@ -102,8 +106,8 @@
 .portfolio {
     display: flex;
     box-sizing: border-box;
-    /* width: 100%; */
 }
+
 .portfolio-img {
     width: 50%;
     background-image: url("images/pictures/portfolio-pic-1.svg"); 
@@ -121,7 +125,7 @@
 }
 
 .portfolio-content h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
     margin-bottom: 20px;
@@ -130,8 +134,7 @@
 }
 
 .portfolio-content div {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: var(--main-font-family);
     font-weight: 300;
     font-size: 24px;
     color: #FFFFFF;
@@ -154,34 +157,30 @@
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     background-position-x: 200px;
-    /* background-position-y: 113px; */
     background-repeat: no-repeat;  
     background-size: 248px 897px;
     background-image: linear-gradient(white, orange)
 }
 
 .testimonials-intro {
-    /* padding-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 45px;
-    margin-left:200px;
-    margin-top: 73px;
-} */
+    display: inline;
     padding-top: 73px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
+    box-sizing: border-box;
 }
 
 .testimonials-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
 }
 
 .testimonials-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
@@ -211,11 +210,9 @@
 
 .person-content {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     color: #000000;
     box-sizing: border-box;
-    /* padding-left: 30px;
-    padding-right: 30px; */
 }
 
 .person-content h5 {
@@ -235,21 +232,19 @@
     padding-top: 113px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
     background-position-x: 200px;
-    /* background-position-y: 100px; */
     background-repeat: no-repeat;  
     background-size: 248px 897px;
     background-image: linear-gradient(white, orange)
 }
 .services-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
 }
 
 .services-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
@@ -265,9 +260,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 50%;
-    display: flex;
-    flex-direction: row; */
 }
 
 .services-content {
@@ -279,7 +271,7 @@
 }
 
 .services-content h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
     margin-top: 143px;
@@ -288,7 +280,7 @@
 }
 
 .services-content div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -301,22 +293,20 @@
     padding-top: 113px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
     background-position-x: 200px;
     background-repeat: no-repeat;  
     background-size: 248px 385px;
-    /* background-image: linear-gradient(orange, white); */
     background-image: linear-gradient(to top,rgba(248, 189, 69, 0), rgba(248, 189, 69, 1));
     margin-bottom: 60px;
 }
 .supporters-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
 }
 
 .supporters-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
@@ -325,9 +315,6 @@
 .supporters-logos {
     display: flex;
     justify-content: space-around;
-    /* align-items: center;
-    width: 215px;
-    height: 95px; */
     padding-left: 230px;
     padding-right: 230px;
     margin-bottom: 81px;
@@ -342,23 +329,21 @@
     padding-top: 113px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
     background-position-x: 200px;
     background-position-y: -100px;
-    /* background-position-y: 100px; */
     background-repeat: no-repeat;  
     background-size: 248px 1245px;
     background-image: linear-gradient(white, orange)
 }
 
 .about-us-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
 }
 
 .about-us-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
@@ -367,7 +352,6 @@
 .about-us {
     display: flex;
     box-sizing: border-box;
-    /* width: 100%; */
 }
 .about-us-img {
     width: 50%;
@@ -375,7 +359,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* box-sizing: border-box; */
 }
 
 .about-us-content {
@@ -387,7 +370,7 @@
 }
 
 .about-us-content h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
     margin-bottom: 20px;
@@ -396,7 +379,7 @@
 }
 
 .about-us-content-1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -407,7 +390,7 @@
 }
 
 .about-us-content-2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -421,10 +404,8 @@
     padding-top: 113px;
     padding-bottom: 46px;
     padding-left: 230px;
-    /* margin-left: 200px; */
     background-position-x: 200px;
     background-position-y: -600px;
-    /* background-position-y: 100px; */
     background-repeat: no-repeat;  
     background-size: 248px 1245px;
     background-image: linear-gradient(orange, white);
@@ -432,24 +413,18 @@
 }
 
 .contact-us-intro h4 {
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--header-font-family);
     font-size: 60px;
     line-height: 87px;
     margin-top: 108px;
 }
 
 .contact-us-intro div {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 36px;
     width: 75vw;
 }
-
-/* .contact-us {
-    width: 1460px;
-    margin-left: 230px;
-    margin-right: 230px;
-} */
 
 .placeholder {
     display: flex;
@@ -457,7 +432,6 @@
     padding-left: 230px;
     padding-right: 230px;
     padding-bottom: 17px;
-    /* margin-bottom: 81px; */
     box-sizing: border-box;
 }
 
@@ -465,7 +439,7 @@
     border:none;
     border-bottom:4px solid #A6A6A6;
     width: 30%;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 16px;
     line-height: 25px;
     padding-left: 30px;
@@ -547,7 +521,7 @@ button:hover {
 }
 
 .footer .content {  
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
@@ -562,7 +536,7 @@ button:hover {
 }
 
 .footer .liner {
-    width: 1454.5px;
+    width: 75vw;
     color:#FFFFFF;
     border: 1px solid;
 }

@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root {
+    --main-font-family:'Roboto', sans-serif;
+    --main--color: red;
+    --header-font-family: 'Secular One', sans-serif;
+}
 
-
+/* font-family: var(--main-font-family) */
 
