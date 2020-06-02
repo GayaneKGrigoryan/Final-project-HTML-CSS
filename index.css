@@ -6,6 +6,7 @@
     top:0;
     background-color: #413B43;
     width: 100%;
+    height: 142px;width: 100%;
     height: 142px;
     z-index: 1;
 }
@@ -448,7 +449,7 @@
 
 .placeholder {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding-left: 230px;
     padding-right: 230px;
     padding-bottom: 17px;
@@ -511,11 +512,17 @@ button {
     font-size: 24px;
     line-height: 28px;
     color: #413B43;
+    margin-bottom: 118px;
 }
 
 .placeholder input:hover {
     border-color: royalblue;
 }
+/* 
+.placeholder input:focus {
+    background-color: crimson;
+    border:none;
+} */
 
 .textarea input:hover {
     border-color: royalblue;
@@ -523,4 +530,34 @@ button {
 
 button:hover {
     border-color: royalblue;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #413B43;
+    width: 100%;
+    height:  424px;
+}
+
+.footer .content {  
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 46.5px; */
+    display: flex;
+    /* flex-direction: row; */
+    align-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.footer .liner {
+    width: 1454.5px;
+    color:#FFFFFF;
+    border: 1px solid;
 }
